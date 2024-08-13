@@ -32,7 +32,7 @@ const { download } = require('aptoide-scraper');
 const { fetchBuffer, buffergif } = require("./Gallery/lib/myfunc2")
 
 /////log
- global.modnumber = '919060791616' 
+ global.modnumber = '237693755398' 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'));
 // let autoblck =JSON.parse(fs.readFileSync('./Gallery/database/autoblock.json'));
@@ -182,7 +182,7 @@ mentionedJid:[sender],
 forwardingScore: 9999999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterName: "AYUSH BOTZ INC",
+newsletterName: "𝑺𝑳𝑮",
 newsletterJid: "120363213314329067@newsletter",
 },
 "externalAdReply": {
@@ -239,7 +239,7 @@ async function Telesticker(url) {
             data2 = await axios(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
             result = {
             status: 200,
-            author: '💙𓆩‎✘AʏᴜSʜ✘𓆪_✰',
+            author: '𝑺𝑳𝑮-𝑴𝑫',
             url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + data2.data.result.file_path
             }
             mariayresult.push(result)
@@ -281,7 +281,7 @@ async function Telesticker(url) {
         }
         
         if (autobio) {
-            Maria.updateProfileStatus(`Hey, future leaders! 🌟 Maria-Md is here to inspire and lead, thanks to Ayush Botz, Inc. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
+            Maria.updateProfileStatus(`Hey, future leaders! 🌟 𝑺𝑳𝑮-𝑴𝑫 is here to inspire and lead, thanks to 𝑺𝑳𝑮 Botz, Inc. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
         }
         if (m.sender.startsWith('212') && global.anti212 === true) {
             return Maria.updateBlockStatus(m.sender, 'block')
@@ -430,8 +430,8 @@ return false;
 const verificationBot = await verification();
 
 if (!verificationBot) {
-m.reply(`⛩️ *❯─「 Maria-MD 」─❮* ⛩️\n
-Join our support group to interact with MARIA-MD 🌟 \n\n https://chat.whatsapp.com/FGPKxVnjgJ7KnBGiDeb4ij`);
+m.reply(`⛩️ *❯─「 𝑺𝑳𝑮-𝑴𝑫 」─❮* ⛩️\n
+Join our support Channel to interact with 𝑺𝑳𝑮-𝑴𝑫 🌟 \n\n https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t`);
 return;
 }
 
@@ -468,7 +468,7 @@ const mariafeature = () =>{
     [
         'https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png', // Image URL
         '', // Title
-        `MARIA YOUTUBE CHANNEL `, // Body message
+        `SLG YOUTUBE CHANNEL `, // Body message
         botname, // Footer message
         'Visit', // Button display text
         'https://youtube.com/@maria-md', // Command (URL in this case)
@@ -582,7 +582,7 @@ const sendSlide = async (jid, title, message, footer, slides) => {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '919931122319@s.whatsapp.net',
+                  newsletterJid: '237693755398@s.whatsapp.net',
                   newsletterName: ownername,
                   serverMessageId: 143
                 }
@@ -598,7 +598,7 @@ const sendSlide = async (jid, title, message, footer, slides) => {
     });
 };
 // Call the function with example parameters
-sendSlide(m.chat, 'MARIA-MD', 'Here the Maria-MD deploy tutorial', botname, slides);
+sendSlide(m.chat, 'SLG-MD', 'Here the SLG-MD deploy tutorial', botname, slides);
 }
 break
 
@@ -1021,7 +1021,7 @@ break;
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: ' *🎐Maria Broadcast🎐* ',
+                                title: ' *🎐SLG Broadcast🎐* ',
                                 body: `Sent ${i.length} Group`,
                                 thumbnailUrl: 'https://telegra.ph/file/3fd18ee11521117c7c882.jpg',
                                 sourceUrl: global.link,
@@ -1283,7 +1283,7 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Maria Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- SLG Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
             m,
             { detectLink: true }
           );
@@ -1305,12 +1305,12 @@ case 'tag': case 'tagall': case 'all':{
             
             case "sc": case "script": case"repo": {
 const axios = require("axios");
-let repoInfo = await axios.get("https://api.github.com/repos/AYUSH-PANDEY023/Maria-MD");
+let repoInfo = await axios.get("https://api.github.com/repos/GEEKMDXINC/SLG-MDX");
         let repo = repoInfo.data;
         console.log(repo);
 
-   const scritxt = `*🚀𝑴𝒂𝒓𝒊𝒂-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
-  *🌟Creator:* 𝑨𝒚𝒖𝒔𝒉 𝒑𝒂𝒏𝒅𝒆𝒚\n
+   const scritxt = `*🚀𝚂𝙻𝙶-𝙼𝙳-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
+  *🌟Creator:* 𝚂𝙻𝙶\n
   *🌟 Repo:* ${repo.html_url}\n
   *🌟 Total Forks:* ${repo.forks_count}\n
   *⭐ Total Stars:* ${repo.stargazers_count}\n
@@ -1603,7 +1603,7 @@ let yts = require("youtube-yts")
         let search = await yts(text)
         let anup3k = search.videos[0]
 const pl= await Ayushplaymp3.mp3(anup3k.url);
-reply('```✅ Song found! Sending...```');
+reply('```✅ Song found! Sending please wait...```');
 await Maria.sendMessage(m.chat,{
     audio: fs.readFileSync(pl.path),
     fileName: anup3k.title + '.mp3',
@@ -1682,7 +1682,7 @@ case 'chatgpt':
 /////////////////////////////////////_//////////////
             case "rules":
       
-        const helptxt = `_*📍[Rules for Maria Md usage]📍*_\n\n\n*>>>* use ${prefix}support to get the Official group link in your dm.\n\n*--->* If you want to add Maria-Md in your group the contact the owner by *${prefix}owner/${prefix}mods* \n\n*--->* Dont use wrong command, use the command given in the *${prefix}help* list \n\n* Dont spam the bot with commands if Maria-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Ayush Bots inc* `
+        const helptxt = `_*📍[Rules for SLG Md usage]📍*_\n\n\n*>>>* use ${prefix}support to get the Official group link in your dm.\n\n*--->* If you want to add SLG-Md in your group the contact the owner by *${prefix}owner/${prefix}mods* \n\n*--->* Dont use wrong command, use the command given in the *${prefix}help* list \n\n* Dont spam the bot with commands if SLG-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ 𝚂𝙻𝙶-𝙼𝙳 Bots inc* `
 
         Maria.sendMessage(from, { video: { url: 'https://c.tenor.com/geMdtLCXZkAAAAPo/rules.mp4' }, gifPlayback: true, caption: helptxt }, { quoted: m })
 
@@ -1690,7 +1690,7 @@ case 'chatgpt':
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `*U^I^U ♡* Konichiwa ${pushname} Senpai, I'm MARIA-MD Created by
+        let txxt = `*U^I^U ♡* Konichiwa ${pushname} Senpai, I'm SLG-MD Created by
 
  *_Team Ayush_*.`
 
@@ -1708,7 +1708,7 @@ case 'chatgpt':
 
       case "info":
             Maria.sendMessage(from, { react: { text: "", key: m.key }}) 
-        let pifx = `❁ ════ ❃•💙 *MARIA* 💙•❃ ════ ❁
+        let pifx = `❁ ════ ❃•💙 *SLG* 💙•❃ ════ ❁
 
 \`\`\`A FULL FLEDGED MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES\`\`\`
 
@@ -1719,7 +1719,7 @@ case 'chatgpt':
 \`\`\`This bot is a free open source project by THE TEAM AYUSH\`\`\`
 
 ❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
-*_LINK:- https://github.com/AYUSH-PANDEY023/Maria-MD_*
+*_LINK:- https://github.com/GEEKMDXINC/SLG-MDX_*
 
 
 ❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
@@ -2172,7 +2172,7 @@ break;
 │⋊ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
 │⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://gg.gg/Maria-support
 ╰────────────┈平和
- 🎀𝐅𝐨𝐥𝐥𝐨𝐰 𝐨𝐧: https://www.instagram.com/ayushpandeyy_023
+ 🎀𝐅𝐨𝐥𝐥𝐨𝐰 𝐨𝐧: https://www.instagram.com/mc_rubenx
 
 Here's the list of my Commands.🔖
  
@@ -2376,11 +2376,11 @@ Here's the list of my Commands.🔖
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"Suivre la chaîne SLG-TECH UPADTE sur WhatsApp  : https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"me 🥵 \",\"url\":\"https://wa.me/237693755398\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -2391,7 +2391,7 @@ Here's the list of my Commands.🔖
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterName: "𝑺𝑳𝑮-𝑴𝑫",
                   serverMessageId: 143
                 }
                 }
@@ -2648,11 +2648,11 @@ let emsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"Suivre la chaîne SLG-TECH UPADTE sur WhatsApp  : https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"me 🥵 \",\"url\":\"https://wa.me/237693755398\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -2664,7 +2664,7 @@ let emsg = generateWAMessageFromContent(from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterName: "𝚂𝙻𝙶-𝙼𝙳",
                   serverMessageId: 143
                 }
                 }
@@ -2719,7 +2719,7 @@ await Maria.relayMessage(emsg.key.remoteJid, emsg.message, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
