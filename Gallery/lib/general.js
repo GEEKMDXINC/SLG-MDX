@@ -1,7 +1,7 @@
 const prefix = global.prefa
   const pushname = m.pushName || "No Name"
 
-const generalmenu =`「 *Maria BOT* 」
+const generalmenu =`「 *𝑺𝑳𝑮-𝑴𝑫* 」
 ┌──⊰ _*🧧GENERAL🧧*_
 │⊳ 🌿 ${prefix}hi
 │⊳ 🌿 ${prefix}dev
