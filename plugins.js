@@ -73,7 +73,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +919931122319")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : 237620857930")))
             process.exit(0)
          }
       } else {
@@ -179,12 +179,12 @@ console.log(chalk.gray('\n\n🚀Initializing...'));
 console.log(chalk.cyan('\n\n🥵Connected'));
 
 Maria.sendMessage(Maria.user.id, {
-    text: `slg-ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ 
+    text: `𝚂𝙻𝙶-𝙼𝙳 ᴄᴏɴɴᴇᴄᴛᴇᴅ 
 
 ᴘʀᴇꜰɪx: [ ${prefix} ]\n
 ᴄᴏᴍᴍᴀɴᴅꜱ: 246\n
 ᴠᴇʀꜱɪᴏɴ: 1.0\n
-ᴄʀᴇᴀᴛᴏʀ: ᴀʏᴜꜱʜ ᴘᴀɴᴅᴇʏ\n
+ᴄʀᴇᴀᴛᴏʀ: 𝚂𝙻𝙶\n
 _ᴛʏᴘᴇ ${prefix}ᴀʟɪᴠᴇ ᴛᴏ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ_ 🤖
  `
 });
@@ -306,7 +306,7 @@ async function getMessage(key){
             return msg?.message
         }
         return {
-            conversation: "MARIA Bot Here!"
+            conversation: "SLG Bot Here!"
         }
     }
     Maria.ev.on('messages.update', async chatUpdate => {
