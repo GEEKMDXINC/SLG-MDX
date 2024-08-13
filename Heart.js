@@ -183,7 +183,7 @@ forwardingScore: 9999999,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 newsletterName: "𝑺𝑳𝑮",
-newsletterJid: "120363213314329067@newsletter",
+newsletterJid: "120363233639076196@newsletter",
 },
 "externalAdReply": {
 "showAdAttribution": true,
@@ -413,7 +413,7 @@ Maria.sendMessage(from, {text:`\`\`\`「 Link Detected 」\`\`\`\n\n@${m.sender.
 
  const verification = async () => {
   try {
-    const group = await Maria.groupMetadata('120363029833092005@g.us');
+    const group = await Maria.groupMetadata('120363233639076196@g.us');
     const participants = group.participants.map(i => i.id);
     if (participants.includes(botNumber) && participants.includes(ownernumber + "@s.whatsapp.net")) {
       console.log(chalk.blueBright('=>Verify:'), chalk.green('Available in the Group ✅️'));
@@ -471,9 +471,9 @@ const mariafeature = () =>{
         `SLG YOUTUBE CHANNEL `, // Body message
         botname, // Footer message
         'Visit', // Button display text
-        'https://youtube.com/@maria-md', // Command (URL in this case)
+        'https://youtube.com/@Geekmdgptx', // Command (URL in this case)
         'cta_url', // Button type
-        'https://youtube.com/@maria-md' // URL (used in image generation)
+        'https://youtube.com/@Geekmdgptx' // URL (used in image generation)
     ], 
     
     
@@ -1023,7 +1023,7 @@ break;
                                 showAdAttribution: true,
                                 title: ' *🎐SLG Broadcast🎐* ',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/3fd18ee11521117c7c882.jpg',
+                                thumbnailUrl: 'https://i.imgur.com/j0hOh1d.jpeg',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -1645,7 +1645,7 @@ case 'chatgpt':
       case 'chatbot':
        const axios = require("axios");
         if (!args[0]) {
-          return reply(`Please provide a message to chat with the Maria chatbot. Example: ${prefix}chat How are you Maria ?`);
+          return reply(`Please provide a message to chat with the Maria chatbot. Example: ${prefix}chat How are you SLG?`);
         }
 
         const message = encodeURIComponent(args.join(' '));
@@ -1692,18 +1692,18 @@ case 'chatgpt':
         
         let txxt = `*U^I^U ♡* Konichiwa ${pushname} Senpai, I'm SLG-MD Created by
 
- *_Team Ayush_*.`
+ *_Team SLG_*.`
 
-        Maria.sendMessage(m.chat, { image: { url: "https://graph.org/file/eb3821e4d2b0a54dd7ea6.jpg" }, caption: txxt}, { quoted: m });
+        Maria.sendMessage(m.chat, { image: { url: "https://i.imgur.com/h12mS6i.jpeg" }, caption: txxt}, { quoted: m });
         
         break;
       case "support":
      
-        let tex = `  [🎀𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋🎀]\n\n🔖_https://chat.whatsapp.com/FGPKxVnjgJ7KnBGiDeb4ij_`
+        let tex = `  [🎀𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋🎀]\n\n🔖_https://chat.whatsapp.com/FRQiuFWlYJ3Jolx7OACtKo_`
 
-        await Maria.sendMessage(m.sender,{ video: {url: "https://media.tenor.com/q5Lo2BINkaUAAAPo/beast-tamer-kanade.mp4"}, caption: `${tex}`,gifPlayback: true},);
+        await Maria.sendMessage(m.sender,{ video: {url: "https://i.imgur.com/h16lK7y.mp4"}, caption: `${tex}`,gifPlayback: true},);
 
-        await Maria.sendMessage(m.chat, { video: { url: "https://media.tenor.com/27yYlTvQ6B0AAAPo/my-dress-up-darling-my-dress-up-darling-gif.mp4" }, caption: '🎀𝑪𝒉𝒆𝒄𝒌 𝑰 𝑺𝒆𝒏𝒕 𝒔𝒖𝒑𝒑𝒐𝒓𝒕 𝒈𝒓𝒐𝒖𝒑 𝒍𝒊𝒏𝒌 𝒊𝒏 𝒚𝒐𝒖𝒓 𝑫𝑴  𝑴𝒚 𝑫𝒂𝒓𝒍𝒊𝒏𝒈', gifPlayback: true }, { quoted: m });
+        await Maria.sendMessage(m.chat, { video: { url: "https://i.imgur.com/h16lK7y.mp4" }, caption: '🎀𝑪𝒉𝒆𝒄𝒌 𝑰 𝑺𝒆𝒏𝒕 𝒔𝒖𝒑𝒑𝒐𝒓𝒕 𝒈𝒓𝒐𝒖𝒑 𝒍𝒊𝒏𝒌 𝒊𝒏 𝒚𝒐𝒖𝒓 𝑫𝑴  𝑴𝒚 𝑫𝒂𝒓𝒍𝒊𝒏𝒈', gifPlayback: true }, { quoted: m });
         break;
 
       case "info":
@@ -1716,7 +1716,7 @@ case 'chatgpt':
 \`\`\`A simple and easy-to-use WhatsApp bot project based on Multi-Device Baileys and written in JavaScript\`\`\`
 
 ❁ ══════ ❃•📄 *NOTE* 📄•❃ ══════ ❁
-\`\`\`This bot is a free open source project by THE TEAM AYUSH\`\`\`
+\`\`\`This bot is not an free open source\`\`\`
 
 ❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
 *_LINK:- https://github.com/GEEKMDXINC/SLG-MDX_*
@@ -1725,7 +1725,7 @@ case 'chatgpt':
 ❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
 \`\`\`Feel free to open issues regarding any problems or if you have any feature feel free to contact owner by typing ${prefix}owner or ${prefix}mods`
 
-Maria.sendMessage(m.chat, { image: { url: "https://graph.org/file/c8ad7dc322c0b9b7eca8f.jpg" }, caption: pifx, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: "https://i.imgur.com/CMPXUgw.jpeg" }, caption: pifx, gifPlayback: true }, { quoted: m });
         break;
 
 
@@ -2158,20 +2158,19 @@ break;
                          
                            
   case 'menu': case 'help': case 'h': 
-      const txt = `╭─「 *Konichiwa* 」
-│⋊ 𝕌𝕤𝕖𝕣: ${pushname} 
-│⋊ 𝔹𝕠𝕥:  ${botname}
-│⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  *${prefix}*
-│⋊ 𝔻𝕒𝕥𝕖: ${Ayuxxdate}
-│⋊ 𝕋𝕚𝕞𝕖:  ${xtime}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: ${ownername}
-│⋊ 𝕧𝕖𝕣𝕤𝕚𝕠𝕟: ${mver}
-│⋊ ℍ𝕠𝕤𝕥: ${os.hostname()}
-│⋊ ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞: ${os.platform()} 
-│⋊ ℝ𝕦𝕟𝕥𝕚𝕞𝕖: ${runtime(process.uptime())}
-│⋊ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://gg.gg/Maria-support
-╰────────────┈平和
+      const txt = `┏❐「 𝑺𝑳𝑮-𝑴𝑫 」
+┃⭔ 𝕌𝕤𝕖𝕣: ${pushname} 
+┃⭔ 𝔹𝕠𝕥:  ${botname}
+┃⭔ ℙ𝕣𝕖𝕗𝕚𝕩:  *${prefix}*
+┃⭔ 𝔻𝕒𝕥𝕖: ${Ayuxxdate}
+┃⭔ 𝕋𝕚𝕞𝕖:  ${xtime}
+┃⭔ 𝕆𝕨𝕟𝕖𝕣: ${ownername}
+┃⭔ 𝕧𝕖𝕣𝕤𝕚𝕠𝕟: ${mver}
+┃⭔ ℍ𝕠𝕤𝕥: ${os.hostname()}
+┃⭔ ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞: ${os.platform()} 
+┃⭔ ℝ𝕦𝕟𝕥𝕚𝕞𝕖: ${runtime(process.uptime())}
+│⭔ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
+┗❐──────────────────❐
  🎀𝐅𝐨𝐥𝐥𝐨𝐰 𝐨𝐧: https://www.instagram.com/mc_rubenx
 
 Here's the list of my Commands.🔖
@@ -2390,7 +2389,7 @@ Here's the list of my Commands.🔖
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
+                  newsletterJid: '120363233639076196@newsletter',
                   newsletterName: "𝑺𝑳𝑮-𝑴𝑫",
                   serverMessageId: 143
                 }
@@ -2575,11 +2574,11 @@ let gmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -2589,8 +2588,8 @@ let gmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG",
                   serverMessageId: 143
                 }
                 }
@@ -2663,7 +2662,7 @@ let emsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
+                  newsletterJid: '120363233639076196@newsletter',
                   newsletterName: "𝚂𝙻𝙶-𝙼𝙳",
                   serverMessageId: 143
                 }
@@ -2723,7 +2722,7 @@ await Maria.relayMessage(emsg.key.remoteJid, emsg.message, {
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -2734,8 +2733,8 @@ await Maria.relayMessage(emsg.key.remoteJid, emsg.message, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG",
                   serverMessageId: 143
                 }
                 }
@@ -2805,11 +2804,11 @@ let owmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -2820,8 +2819,8 @@ let owmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG",
                   serverMessageId: 143
                 }
                 }
@@ -2889,11 +2888,11 @@ await Maria.relayMessage(owmsg.key.remoteJid, owmsg.message, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -2904,8 +2903,8 @@ await Maria.relayMessage(owmsg.key.remoteJid, owmsg.message, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG",
                   serverMessageId: 143
                 }
                 }
@@ -2978,11 +2977,11 @@ let funmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -2993,8 +2992,8 @@ let funmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196newsletter',
+                  newsletterName: "SLG",
                   serverMessageId: 143
                 }
                 }
@@ -3057,11 +3056,11 @@ let dowmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
 
@@ -3072,8 +3071,8 @@ let dowmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG",
                   serverMessageId: 143
                 }
                 }
@@ -3129,11 +3128,11 @@ let wallmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -3143,8 +3142,8 @@ let wallmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG",
                   serverMessageId: 143
                 }
                 }
@@ -3210,11 +3209,11 @@ await Maria.relayMessage(wallmsg.key.remoteJid, wallmsg.message, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -3224,8 +3223,8 @@ contextInfo: {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG INC",
                   serverMessageId: 143
                 }
                 }
@@ -3300,11 +3299,11 @@ let othmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -3314,8 +3313,8 @@ let othmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG INC",
                   serverMessageId: 143
                 }
                 }
@@ -3376,11 +3375,11 @@ await Maria.relayMessage(othmsg.key.remoteJid, othmsg.message, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -3390,8 +3389,8 @@ await Maria.relayMessage(othmsg.key.remoteJid, othmsg.message, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG INC",
                   serverMessageId: 143
                 }
                 }
@@ -3413,7 +3412,7 @@ await Maria.relayMessage(gamemsg.key.remoteJid, gamemsg.message, {
 ┃ *👨‍✈️ Creator:* ${ownername}
 ┃ *💻 RUNTIME:* ${runtime(process.uptime())}
 ┃ *📅 TODAY:* ${Ayuxxdate}
-┃ *💠 Github:* https://github.com/AYUSH-PANDEY023/Maria-MD
+┃ *💠 Github:* https://github.com/GEEKMDXINC/SLG-MDX
 ┃ *💬MESSAGE:* 𝙔𝙀𝙎! 𝙄 𝘼𝙈 𝘼𝙇𝙄𝙑𝙀 𝘽𝘼𝘽𝙔😚!!
 ┗━━━━━━━━━━━━━━━᯽
 _Please Select Button Below_
@@ -3464,11 +3463,11 @@ let msg = generateWAMessageFromContent(from, {
    },
                  {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Deployment Tutorial 📺\",\"url\":\"https://youtu.be/bX6oGRiFs9A?si=HSgTLqWvS65nn-R1\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Deployment Tutorial 📺\",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },          
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀\",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀\",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               }                      
            ],
           }),
@@ -3477,8 +3476,8 @@ let msg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '1203632336390761967@newsletter',
+                  newsletterName: "SLG INC",
                   serverMessageId: 143
                 }
                 }
@@ -3570,7 +3569,7 @@ let liistmsg = generateWAMessageFromContent(from, {
    },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🚀\",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WHATSAPP 🚀\",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               }                      
            ],
           }),
@@ -3579,8 +3578,8 @@ let liistmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG INC",
                   serverMessageId: 143
                 }
                 }
@@ -3751,7 +3750,7 @@ case 'dme':
 {
     if (!isGroup) return reply('This feature is only for groups');
     if (!isBotAdmins) return reply('Bro, just chill, I am also not an admin ');
-    if (sender !== '919931122319@s.whatsapp.net') return reply('Ahh, only my owner can use this command ');
+    if (sender !== '237693755398@s.whatsapp.net') return reply('Ahh, only my owner can use this command ');
     // if (!isBotGroupAdmins) return reply('Bot Not Admin...');
     Maria.groupParticipantsUpdate(from, [sender], 'demote');
     reply('*_You had a good run but you are no longer an admin. Embrace the freedom! _*');
@@ -3978,7 +3977,7 @@ case 'pokemon': {
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...mediaData,
-              title: 'Here is a Pokemon wallpaper for you! ⚡🔥\n\n© Ayush Botz.Inc',
+              title: 'Here is a Pokemon wallpaper for you! ⚡🔥\n\n© SLG.Inc',
               subtitle: themeemoji,
               hasMediaAttachment: true
             }),
@@ -4203,8 +4202,8 @@ case 'instagram': case 'ig': case 'igvideo': case 'igimage': case 'igvid': case 
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH Botz.Inc",
+                  newsletterJid: '1203632336390761967@newsletter',
+                  newsletterName: "SLG",
                   serverMessageId: 143
                 }
                 }
@@ -4247,7 +4246,7 @@ return await Maria.relayMessage(m.chat, msgs.message, {})
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
+                  newsletterJid: '120363233639076196@newsletter',
                   newsletterName: "AYUSH Botz.Inc",
                   serverMessageId: 143
                 }
@@ -4325,7 +4324,7 @@ case 'welcome':
 
 
 case 'git': case 'gitclone':
-if (!text) return reply(`🧩Where is the link?\n🔮Example :\n${prefix}${command} https://github.com/AYUSH-PANDEY023/Maria-Md `)
+if (!text) return reply(`🧩Where is the link?\n🔮Example :\n${prefix}${command} https://github.com/GEEKMDXINC/SLG-MDX `)
 if (!isUrl(text) && !text.includes('github.com')) return reply(`Link invalid!!`)
     let repo = text.split('/');
     let url = `https://api.github.com/repos/${repo[3]}/${repo[4]}/zipball`
@@ -4470,7 +4469,7 @@ case 'ping':
         key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
         message: {
             contactMessage: {
-                displayName: 'MARIA-MD 📱',
+                displayName: 'SLG-MD 📱',
                 vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:MARIA-MD 📱\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
             }
         }
@@ -4504,17 +4503,13 @@ case 'ping':
 case 'developer':
 case 'dev':
     const devmod = `  🍥 *Moderators* 🍥\n\n
-*🎫Ayush* @919931122319
+*🎫SLG* @237693755398
 
-*🎫xeon* @916909137213
-
-*🎫Pikachu* @918811074852
-
-*🎫OldUser* @918602239106
+*🎫ANDREAS* @237620857930
  \n
-\n📛*Don't Spam them to avoid Blocking !*\n\n For any help, type *${prefix}support* and ask in the group.\n\n*✨️Thanks for using Maria-Md* `;
+\n📛*Don't Spam them to avoid Blocking !*\n\n For any help, type *${prefix}support* and ask in the group.\n\n*✨️Thanks for using SLG-MD-V1 Md* `;
 
-    Maria.sendMessage(m.chat, { text: devmod, mentions: ["919931122319@s.whatsapp.net", "918811074852@s.whatsapp.net", "916909137213@s.whatsapp.net","918602239106@s.whatsapp.net"] }, { quoted: m });
+    Maria.sendMessage(m.chat, { text: devmod, mentions: ["237693755398@s.whatsapp.net", "237620857930@s.whatsapp.net"] }, { quoted: m });
     break;
 
 
@@ -4951,7 +4946,7 @@ case 'chat':
         
 case "info":
             Maria.sendMessage(from, { react: { text: "", key: m.key }}) 
-        let ifx = `❁ ════ ❃•💙 *MARIA* 💙•❃ ════ ❁
+        let ifx = `❁ ════ ❃•💙 *SLG* 💙•❃ ════ ❁
 
 \`\`\`A FULL FLEDGED MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES\`\`\`
 
@@ -4959,16 +4954,16 @@ case "info":
 \`\`\`A simple and easy-to-use WhatsApp bot project based on Multi-Device Baileys and written in JavaScript\`\`\`
 
 ❁ ══════ ❃•📄 *NOTE* 📄•❃ ══════ ❁
-\`\`\`This bot is a free open source project by THE TEAM AYUSH\`\`\`
+\`\`\`This bot is NOT A  free open source project by THE TEAM SLGH\`\`\`
 
 ❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
-*_LINK:- https://github.com/AYUSH-PANDEY023/Maria-MD_*
+*_LINK:- https://github.com/GEEKMDXINC/SLG-MDX_*
 
 
 ❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
 \`\`\`Feel free to open issues regarding any problems or if you have any feature feel free to contact owner by typing ${prefix}owner or ${prefix}mods`
 
-Maria.sendMessage(m.chat, { image: { url: "https://graph.org/file/c8ad7dc322c0b9b7eca8f.jpg" }, caption: ifx, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: "https://i.imgur.com/EIPryER.jpeg" }, caption: ifx, gifPlayback: true }, { quoted: m });
         break;
 
 
@@ -4995,11 +4990,11 @@ _We will update the bot's terms and conditions periodically, so it's your respon
 _If you have any questions regarding our terms, please reach out to us._
 _For everything else, use common sense._
 
-*FUTURE IS NOW🚀~MARIA-MD*
+*FUTURE IS NOW🚀~SLG-MD*
 *_🚀Team Ayush_*
 
 ⍟ *────────────────* ⍟`
- let mariajpg= "https://graph.org/file/c8ad7dc322c0b9b7eca8f.jpg" 
+ let mariajpg= "https://i.imgur.com/8A9iJd9.jpeg" 
  
 let tifxmsg = generateWAMessageFromContent(from, {
   viewOnceMessage: {
@@ -5016,7 +5011,7 @@ let tifxmsg = generateWAMessageFromContent(from, {
             text: botname
           }),
                     header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image: { url: "https://graph.org/file/c8ad7dc322c0b9b7eca8f.jpg" }}, { upload: Maria.waUploadToServer})), 
+                ...(await prepareWAMessageMedia({ image: { url: "https://i.imgur.com/8A9iJd9.jpeg" }}, { upload: Maria.waUploadToServer})), 
             title: tifx,
             subtitle: themeemoji,
             hasMediaAttachment: false
@@ -5026,11 +5021,11 @@ let tifxmsg = generateWAMessageFromContent(from, {
 
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"WhatsApp🚀 \",\"url\":\"https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t\",\"merchant_url\":\"https://www.google.com\"}"
               },
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@maria-md\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"Youtube 🥵 \",\"url\":\"https://youtube.com/@Geekmdgptx\",\"merchant_url\":\"https://www.google.com\"}"
               }
 
            ],
@@ -5040,8 +5035,8 @@ let tifxmsg = generateWAMessageFromContent(from, {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG INC",
                   serverMessageId: 143
                 }
                 }
@@ -5093,8 +5088,8 @@ case '': {
                   forwardingScore: 999,
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                  newsletterJid: '120363213314329067@newsletter',
-                  newsletterName: "AYUSH BOTZ INC",
+                  newsletterJid: '120363233639076196@newsletter',
+                  newsletterName: "SLG INC",
                   serverMessageId: 143
                 }
                 }
