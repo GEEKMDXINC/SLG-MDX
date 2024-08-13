@@ -29,7 +29,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "919931122319"
+let phoneNumber = "237693755398"
 let owner = JSON.parse(fs.readFileSync('./Gallery/database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -77,14 +77,14 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number\nFor example: +919931122319 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number\nFor example: +237620857930 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +919931122319")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +237620857930")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number please\nFor example: +919931122319: `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number please\nFor example: +237620857930: `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
@@ -171,7 +171,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
 Maria.ev.on("connection.update",async  (s) => {
         const { connection, lastDisconnect } = s
         if (connection == "open") {
-console.log(chalk.green('🟨Welcome to Maria-md'));
+console.log(chalk.green('🟨Welcome to SLG'));
 console.log(chalk.gray('\n\n🚀Initializing...'));
            await delay(1000 * 2) 
             Maria.groupAcceptInvite("FGPKxVnjgJ7KnBGiDeb4ij")
@@ -179,11 +179,11 @@ console.log(chalk.gray('\n\n🚀Initializing...'));
 console.log(chalk.cyan('\n\n🥵Connected'));
 
 Maria.sendMessage(Maria.user.id, {
-    text: `ᴍᴀʀɪᴀ-ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ 
+    text: `slg-ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ 
 
 ᴘʀᴇꜰɪx: [ ${prefix} ]\n
 ᴄᴏᴍᴍᴀɴᴅꜱ: 246\n
-ᴠᴇʀꜱɪᴏɴ: 3.0\n
+ᴠᴇʀꜱɪᴏɴ: 1.0\n
 ᴄʀᴇᴀᴛᴏʀ: ᴀʏᴜꜱʜ ᴘᴀɴᴅᴇʏ\n
 _ᴛʏᴘᴇ ${prefix}ᴀʟɪᴠᴇ ᴛᴏ ᴜꜱᴇ ᴛʜᴇ ʙᴏᴛ_ 🤖
  `
@@ -384,7 +384,7 @@ Maria.sendMessage(anu.id,
 	                const Mariadate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let MariaName = num
                     const Mariamembers = metadata.participants.length  
-     Mariabody = `┌──⊰🍁𝑭𝑨𝑹𝑬𝑾𝑬𝑳𝑳🍁⊰
+     Mariabody = `┌──⊰🔥𝑭𝑨𝑹𝑬𝑾𝑬𝑳𝑳🔥⊰
 │⊳  👤 From: ${metadata.subject}
 │⊳  📃 Reason: Left
 │⊳  📔 Name: @${MariaName.split("@")[0]}
