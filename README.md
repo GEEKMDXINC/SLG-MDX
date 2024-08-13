@@ -1,4 +1,4 @@
-<a href="https://ibb.co/pQNpmwN"><img src="https://i.imgur.com/18s9w1i.jpeg" alt="SLG-MD" border="0"></a>
+<a href="https://i.imgur.com/18s9w1i.png"><img src="https://i.imgur.com/18s9w1i.png" alt="SLG-MD" border="0"></a>
 <h1 align="center">⭐SLG-MD⭐<br></h1>
 
 <p align="center"> 
