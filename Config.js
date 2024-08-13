@@ -5,11 +5,11 @@ require('dotenv').config();
 //contact details
 global.ownernumber = [ process.env.OWNER_NUMBER || "237693755398"],
 global.ownername = process.env.OWNER_NAME || "𝑺𝑳𝑮_✰",
-global.ytname = "YT: AyushBotz.inc"
+global.ytname = "YT: 𝑺𝑳𝑮.inc"
 global.socialm = "GitHub: Ayushpandey023"
 global.location = "Indian"
 
-global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
+global.botname = process.env.BOTNAME || "𝑺𝑳𝑮-𝐌𝐃",//name of the bot
 
 //sticker details
 global.stickername = process.env.STICKER || "𝑺𝑳𝑮_✰",
