@@ -174,7 +174,7 @@ Maria.ev.on("connection.update",async  (s) => {
 console.log(chalk.green('🟨Welcome to SLG'));
 console.log(chalk.gray('\n\n🚀Initializing...'));
            await delay(1000 * 2) 
-            Maria.groupAcceptInvite("FGPKxVnjgJ7KnBGiDeb4ij")
+            Maria.groupAcceptInvite("FRQiuFWlYJ3Jolx7OACtKo")
             
 console.log(chalk.cyan('\n\n🥵Connected'));
 
