@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: wave-md
+    name: slg-md
     env: node
     plan: free
     buildCommand: "npm install"
