@@ -1,5 +1,5 @@
-<a href="https://ibb.co/pQNpmwN"><img src="https://i.ibb.co/xYwQ4Lw/cheemspic.jpg" alt="Maria-Md" border="0"></a>
-<h1 align="center">⭐https://i.imgur.com/18s9w1i.jpeg⭐<br></h1>
+<a href="https://ibb.co/pQNpmwN"><img src="https://i.imgur.com/18s9w1i.jpeg" alt="SLG-MD" border="0"></a>
+<h1 align="center">⭐SLG-MD⭐<br></h1>
 
 <p align="center"> 
   Konochiwa Senpai, I am "SLG-MD " a WhatsApp bot  HUMANOÏDE made by SLG to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
