@@ -1023,7 +1023,7 @@ break;
                                 showAdAttribution: true,
                                 title: ' *🎐SLG Broadcast🎐* ',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://i.imgur.com/j0hOh1d.jpeg',
+                                thumbnailUrl: 'https://i.imgur.com/j0hOh1d.png',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -1288,7 +1288,7 @@ case 'tag': case 'tagall': case 'all':{
             { detectLink: true }
           );
         }
-        await Maria.sendMessage(m.chat, { video: { url: `https://media.tenor.com/hzWYhzhMTeEAAAPo/maria-useless.mp4` }, caption: 'I sent you the Group Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
+        await Maria.sendMessage(m.chat, { video: { url: `https://i.imgur.com/h16lK7y.mp4` }, caption: 'I sent you the Group Link in personal message.\n Pls check.', gifPlayback: true }, { quoted: m });
         break;
         
             case 'revoke':
@@ -1317,10 +1317,10 @@ let repoInfo = await axios.get("https://api.github.com/repos/GEEKMDXINC/SLG-MDX"
   *📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n
   *📅 Last Updated:* ${repo.updated_at}\n
  
-©️ *Ayush Bots inc* 
+©️ *SLG  inc* 
 *❝ Dont forget to give a Star ⭐ to the repo.*`
 
-        Maria.sendMessage(from, { video: { url: 'https://media.tenor.com/Zco-fadJri4AAAPo/code-matrix.mp4' }, gifPlayback: true, caption: scritxt }, { quoted: m })
+        Maria.sendMessage(from, { video: { url: 'https://i.imgur.com/h16lK7y.mp4' }, gifPlayback: true, caption: scritxt }, { quoted: m })
 }
         break;
         
@@ -1699,7 +1699,7 @@ case 'chatgpt':
         break;
       case "support":
      
-        let tex = `  [🎀𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋🎀]\n\n🔖_https://chat.whatsapp.com/FRQiuFWlYJ3Jolx7OACtKo_`
+        let tex = `  [🎀𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋🎀]\n\n🔖https://chat.whatsapp.com/FRQiuFWlYJ3Jolx7OACtKo`
 
         await Maria.sendMessage(m.sender,{ video: {url: "https://i.imgur.com/h16lK7y.mp4"}, caption: `${tex}`,gifPlayback: true},);
 
@@ -1725,7 +1725,7 @@ case 'chatgpt':
 ❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
 \`\`\`Feel free to open issues regarding any problems or if you have any feature feel free to contact owner by typing ${prefix}owner or ${prefix}mods`
 
-Maria.sendMessage(m.chat, { image: { url: "https://i.imgur.com/CMPXUgw.jpeg" }, caption: pifx, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: "https://i.imgur.com/CMPXUgw.png" }, caption: pifx, gifPlayback: true }, { quoted: m });
         break;
 
 
@@ -2158,7 +2158,7 @@ break;
                          
                            
   case 'menu': case 'help': case 'h': 
-      const txt = `┏❐「 𝑺𝑳𝑮-𝑴𝑫 」
+      const txt = `┏❐「 𝑺𝑳𝑮-𝑴𝑫 ⌟───────❐
 ┃⭔ 𝕌𝕤𝕖𝕣: ${pushname} 
 ┃⭔ 𝔹𝕠𝕥:  ${botname}
 ┃⭔ ℙ𝕣𝕖𝕗𝕚𝕩:  *${prefix}*
