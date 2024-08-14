@@ -39,6 +39,7 @@
     "jsdom": "^22.1.0",
     "mathjs": "^13.0.0",
     "moment-timezone": "^0.5.43",
+          "mouricedevs": "npm:@distube/ytdl-core@latest"
     "node-fetch": "^2.6.11",
     "node-id3": "^0.2.3",
     "node-periodic-table": "^0.0.6",
