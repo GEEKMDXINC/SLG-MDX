@@ -6,7 +6,7 @@
 
 
 <a href="https://i.imgur.com/18s9w1i.png"><img src="https://i.imgur.com/18s9w1i.png" alt="SLG-MD" border="0"></a>
-<h1 align="center">⭐SLG-MD⭐<br></h1>
+<h1 align="center">`SLG-MD`<br></h1>
 
 <p align="center"> 
   Konochiwa Senpai, I am "SLG-MD " a WhatsApp bot  HUMANOÏDE made by SLG to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
@@ -18,7 +18,7 @@
 
 </br>
 
-### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 3 days because i am continuously debugging it and making major changes in it.
+###  This bot is still under development so if you want to recode/modify it, pls check this main repo once in 3 days because i am continuously debugging it and making major changes in it.
 </br>
 
 </br>
@@ -34,7 +34,7 @@
 <p align="left">
   <a href="https://www.instagram.com/mc_rubenx"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 
-## ✧✧Bot Support Groups
+##  `Bot Support Groups`
 <p align="center">
 
 <a href="https://whatsapp.com/channel/0029Vae5OOcB4hdWhVdLJM2t"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
@@ -58,13 +58,13 @@
    </p>
 
 
-## ✧✧Maria Deployment  
+##  *Deployment*  
 <a href=""><img title="Deploy SLG-MD  " src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
 
 
 
 
-### ✧✧ Follow this Tutorial for Maria's  error free and safe Deployment 
+###  Follow this Tutorial for Maria's  error free and safe Deployment 
 <p align="left" >
   <a href=""><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/ww4z2m3uORU" /><br>
      
@@ -72,7 +72,7 @@
     
 
 
-# ✧✧Install Manually 👇
+# Install Manually 👇
 
 <details>
 <summary>Read more</summary>
